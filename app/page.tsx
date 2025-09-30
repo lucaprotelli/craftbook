@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button"
-import { Square3dCornerToCorner } from "iconoir-react"
+import { IconDraw } from "central-icons"
 
 export default function Home() {
     return (
-        <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-                <Button variant="link">
-                    <Square3dCornerToCorner /> Craftbook
+        <div className="font-sans min-h-screen">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+                <Button variant="link" className="">
+                    <IconDraw />
+                    Craftbook
                 </Button>
             </main>
         </div>

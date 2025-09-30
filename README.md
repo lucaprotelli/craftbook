@@ -1,30 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Craftbook — Microinteractions, Motion, UI Prototypes
 
-## Getting Started
+Craftbook is my personal gallery and playground for design-in-code:
 
-First, run the development server:
+-   microinteractions and motion studies
+-   UI component experiments and patterns
+-   quick prototypes and visual explorations
+
+I use this repo to think with my hands. It’s a space to try ideas fast, keep them visible, and refine the feel of interfaces: timing, easing, rhythm, and clarity.
+
+## What you’ll find
+
+-   Experiments: small, focused studies exploring animation, feedback, and transitions
+-   Components: reusable building blocks and variations
+-   Prototypes: end-to-end flows to evaluate UX with motion
+-   Notes: workflow, conventions, and references I keep handy
+
+## Run locally
 
 ```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Repo structure (high level)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+-   `app/` — entry points, pages, layouts
+-   `components/` — UI components (including shadcn/ui wrappers)
+-   `lib/` — utilities and helpers
+-   `public/` — static assets (e.g. `public/inspiration` for images/videos)
 
-## Learn More
+## Conventions I try to follow
 
-To learn more about Next.js, take a look at the following resources:
+-   Motion first: respect duration, delay, and easing; optimize for clarity over spectacle
+-   Small, composable components; prefer props over one-off variants
+-   Consistent naming; keep examples copy/paste-friendly
+-   Commit messages that capture intent (imperative, concise)
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Roadmap (living list)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+-   More microinteractions around form feedback and empty states
+-   Expand motion tokens (durations/easings) for consistency
+-   Add accessible prefers-reduced-motion defaults
+-   Curate a “best of” collection view
 
-## Deploy on Vercel
+## Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-   This is a personal R&D space. Code may be experimental or intentionally rough while exploring ideas.
+-   Unless otherwise stated, content is for reference/inspiration and not production-ready.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Thanks
+
+To the motion design and UI engineering community for endless inspiration. If something here helps you think or build better interfaces, mission accomplished.
